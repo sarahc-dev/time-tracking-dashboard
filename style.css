@@ -164,7 +164,7 @@ body {
   transition: color 0.3s;
 }
 
-.frequency > button[aria-selected="true"],
+.frequency > button[aria-pressed="true"],
 .frequency > button:hover {
   color: var(--clr-white);
 }

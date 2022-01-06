@@ -6,8 +6,8 @@ buttons.forEach((button) => {
 
 function updateReport(e) {
 
-    document.querySelector(".frequency button[aria-selected='true']").setAttribute("aria-selected", false);
-    e.target.setAttribute("aria-selected", true);
+    document.querySelector(".frequency button[aria-pressed='true']").setAttribute("aria-pressed", false);
+    e.target.setAttribute("aria-pressed", true);
 
     const chosenFrequency = (e.target.innerHTML).toLowerCase();
     
